@@ -1,0 +1,23 @@
+formulario{
+    display: flex;
+    justify-content: center;
+}
+
+.cinesa{
+    margin: auto;
+    display: block;
+}
+
+imagenes{
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;
+}
+
+.imagen{
+    margin-right: 10px;
+}
+
+.titulo{
+    text-align: center;
+}

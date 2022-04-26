@@ -5,30 +5,32 @@
     <link rel="stylesheet" href="estil.css">
 </head>
 <body>
-    <img class="cinesa" src="logo-cinesa.png" height="70px" width="170px">
-    <div class="titulo">Doctor Strange en el Multiverso de la Locura</div>
-    <br>
-    <imagenes>
-    <img class="imagen" src="https://www.cinesa.es/Manager/Peliculas/doctorstrangeenelmultiversodelalocura/cartelera.jpg" height="290px" width="200px">
-    <iframe width="540" height="290" src="https://www.youtube.com/embed/NOpzldCE7GY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </imagenes>
-    <br> 
-    <formulario>
-    
-        <form action="wellcome_get.php" method="get">
-            <label>Para comprar entradas rellena los siguientes datos</label><br><br>
-            Nombre: <input  type="text" name="nombre" placeholder="tu nombre"><br>
-            Apellidos: <input type="text" name="apellidos" placeholder="tus apellidos"><br>
-            Edad: <input type="number" name="edad" min="16" max="64" placeholder="16"><br>
-            Menor: <input type="radio" name="menor" value="si">Si<input type="radio" name="menor" value="no">No<br>
-            Tipo de entrada: <select name="entrada">
-                <option>Butaca Normal</option>
-                <option>Butaca VIP</option>
-            </select>
+        <img class="cinesa" src="logo-cinesa.png" height="70px" width="170px">
+        <div class="titulo">Doctor Strange en el Multiverso de la Locura</div>
+        <br>
+    <div>
+        <imagenes>
+        <img class="imagen" src="https://www.cinesa.es/Manager/Peliculas/doctorstrangeenelmultiversodelalocura/cartelera.jpg" height="290px" width="200px">
+        <iframe width="540" height="290" src="https://www.youtube.com/embed/NOpzldCE7GY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </imagenes>
+        <br> 
+        <formulario>
+        
+            <form action="wellcome_get.php" method="get">
+                <label>Para comprar entradas rellena los siguientes datos</label><br><br>
+                Nombre: <input  type="text" name="nombre" placeholder="tu nombre"><br>
+                Apellidos: <input type="text" name="apellidos" placeholder="tus apellidos"><br>
+                Edad: <input type="number" name="edad" min="16" max="64" placeholder="16"><br>
+                Menor: <input type="radio" name="menor" value="si">Si<input type="radio" name="menor" value="no">No<br>
+                Tipo de entrada: <select name="entrada">
+                    <option>Butaca Normal</option>
+                    <option>Butaca VIP</option>
+                </select>
 
 
-            <br><input type="submit" value="Comprar">
-        </form>
-    </formulario>
+                <br><input type="submit" value="Comprar">
+            </form>
+        </formulario>
+    </div>
 </body>
 </html>

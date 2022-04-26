@@ -20,4 +20,14 @@ imagenes{
 
 .titulo{
     text-align: center;
+    color: royalblue;
+}
+
+div{
+    background-color: #cccccc;
+    border-color: #f70000;
+    border: 3px;
+    padding: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
 }

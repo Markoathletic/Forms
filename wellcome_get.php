@@ -1,7 +1,8 @@
 <html>
 <body>
-
-Welcome <?php echo $_GET["nombre"]; ?><br>
+    
+Gracias por comprar <?php echo $_GET["nombre"]; ?><br><br>
+Aqui tienes tus entradas <input type="submit" value="Descargar">
 
 </body>
 </html>

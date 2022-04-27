@@ -1,7 +1,9 @@
 formulario{
     display: flex;
     justify-content: center;
+    text-align: center;
 }
+
 
 .cinesa{
     margin: auto;
@@ -21,6 +23,10 @@ imagenes{
 .titulo{
     text-align: center;
     color: royalblue;
+    font-size: 40px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: -20px;
 }
 
 div{
@@ -30,4 +36,31 @@ div{
     padding: 5px;
     margin-left: 200px;
     margin-right: 200px;
+}
+
+option, select{
+    font-size: 15px;
+}
+
+input{
+    padding: 2px;
+    border-radius: 8px;
+    background-color: rgb(253, 201, 133);
+    border-color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+
+label{
+    font-size: 20px;
+}
+
+.botones{
+    margin-bottom: 8px;
+}
+
+.boton{
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
 }
